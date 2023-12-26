@@ -16,7 +16,7 @@ Created serializer for json data parsing.
 
 Craeted BookViewset and reviewset for apis handling.
 
-Override delete method to soft delete option. 
+Override delete method to implement soft delete option. 
 
 Used decorators to connevt both viewset to obtain data based on first viewset.
 
