@@ -1,7 +1,7 @@
 from django.db import models
 
-# Create your models here.
-#Create Comapny Model
+# Created your models here.
+
 class Bookshelf(models.Model):
    ISBN=models.IntegerField(unique=True, primary_key=True)
    title= models.CharField(max_length=100)
